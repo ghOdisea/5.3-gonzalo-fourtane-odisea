@@ -1,0 +1,13 @@
+{
+    "_id": "ObjectId",
+    "marca": "String",
+    "graduacionI": "String",
+    "graduacionD": "String",
+    "tipoMontura": "String",
+    "colorMontura": "String",
+    "colorCristalIzq": "String",
+    "colorCristalDer": "String",
+    "precio": "Number",
+    "idProveedor": "Number"
+  }
+  

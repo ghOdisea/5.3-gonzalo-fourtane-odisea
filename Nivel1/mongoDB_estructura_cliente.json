@@ -1,0 +1,12 @@
+
+{
+    "_id": "ObjectId",
+    "nombre": "String",
+    "dirección": "String",
+    "teléfono": "String",
+    "correo_electrónico": "String",
+    "fecha_registro": "Date",
+    "recomendación": ["String", "Null"]
+  }
+  
+  
