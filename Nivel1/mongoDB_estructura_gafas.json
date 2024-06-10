@@ -1,8 +1,8 @@
 {
     "_id": "ObjectId",
     "marca": "String",
-    "graduacionI": "String",
-    "graduacionD": "String",
+    "graduacionI": "Float",
+    "graduacionD": "Float",
     "tipoMontura": "String",
     "colorMontura": "String",
     "colorCristalIzq": "String",

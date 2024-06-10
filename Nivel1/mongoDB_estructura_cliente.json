@@ -1,12 +1,22 @@
 
 {
-    "_id": "ObjectId",
-    "nombre": "String",
-    "dirección": "String",
-    "teléfono": "String",
-    "correo_electrónico": "String",
-    "fecha_registro": "Date",
-    "recomendación": ["String", "Null"]
-  }
+  "nombre": "String",
+  "dirección": "String",
+  "teléfono": "String",
+  "correo_electrónico": "Email",
+  "fecha_registro": "Date",
+  "ultimasCompras": [
+    {
+      "graduacionI": "String",
+      "graduacionD": "String",
+      "colorCristalIzq": "String",
+      "colorCristalDer": "String",
+      "tipoMontura": "String",
+      "precio": "Number"
+    } 
+    , null    
+  ]
+}
+  
   
   
