@@ -7,7 +7,23 @@
     "colorMontura": "String",
     "colorCristalIzq": "String",
     "colorCristalDer": "String",
-    "precio": "Number",
-    "idProveedor": "Number"
+    "precio": "Float",
+    "proveedor": {
+        "_id": "ObjectId",
+        "proveedor": "String",
+        "dirección": {
+          "calle": "String",
+          "número": "Number",
+          "piso": ["Number", "Null"],
+          "puerta": ["String", "Null"],
+          "ciudad": "String",
+          "código_postal": "Number",
+          "país": "String"
+        },
+        "teléfono": "String",
+        "fax": ["Number", "Null"],
+        "NIF": "String"
+    },
+    "compraCliente": {}
   }
   

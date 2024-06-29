@@ -2,17 +2,19 @@
 {
   "nombre": "String",
   "dirección": "String",
-  "teléfono": "String",
+  "teléfono": "Number",
   "correo_electrónico": "Email",
   "fecha_registro": "Date",
-  "ultimasCompras": [
+  "ultimasCompras": [ 
     {
-      "graduacionI": "String",
-      "graduacionD": "String",
+      "_id": "ObjectId",
+      "marca": "String",
+      "graduacionI": "Float",
+      "graduacionD": "Float",
       "colorCristalIzq": "String",
       "colorCristalDer": "String",
       "tipoMontura": "String",
-      "precio": "Number"
+      "precio": "Float"
     } 
     , null    
   ]

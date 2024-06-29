@@ -7,10 +7,10 @@
     "piso": ["Number", "Null"],
     "puerta": ["String", "Null"],
     "ciudad": "String",
-    "código_postal": "String",
+    "código_postal": "Number",
     "país": "String"
   },
   "teléfono": "String",
-  "fax": ["String", "Null"],
+  "fax": ["Number", "Null"],
   "NIF": "String"
 }
