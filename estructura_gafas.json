@@ -1,0 +1,16 @@
+{
+    "_id": "ObjectId",
+    "brand": "String",
+    "graduation": {
+      "L": "Float",
+      "R": "Float"
+    },
+    "glass_colors": {
+      "L": "String",
+      "R": "String"
+    },
+    "frame_type": "String", 
+    "frame_color": "String",
+    "price": "Float",
+    "provider_id": "ObjectId"
+  }

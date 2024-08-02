@@ -1,0 +1,15 @@
+{
+    "_id": "ObjectId",
+    "client_name": "String",
+    "address": {
+      "street": "String",
+      "number": "String",
+      "city": "String",
+      "postal_code": "String",
+      "country": "String"
+    },
+    "telephone": "String",
+    "email": "String",
+    "register_date": "Date",
+    "recommended_by": "ObjectId" 
+  }
