@@ -1,0 +1,30 @@
+
+{
+  "id":"ObjectId",
+  "client_name": "String",
+  "address": "String",
+  "telephone": "Number",
+  "email": "Email",
+  "register_date": "Date",
+  "lastShoppings": [ 
+    {
+      "_id": "ObjectId",
+      "brand": "String",
+      "graduation":{
+        "R": "Float",
+        "L": "Float"
+      },
+      "glassColor": {
+        "L": "String",
+        "R": "String"
+      } ,
+      "frame_type": "String",
+      "price": "Float"
+    } 
+    , null    
+  ],
+  "recommended_by": "ObjectId"
+}
+  
+  
+  

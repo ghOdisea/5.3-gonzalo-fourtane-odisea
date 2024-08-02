@@ -1,0 +1,11 @@
+{
+    "_id": "ObjectId",
+    "brand": "String",
+    "frame_type": "String",
+    "provider_name": "String",
+    "price": "Float",
+    "bought_by": [{
+      "client_id": "ObjectId"
+    }]
+  }
+  

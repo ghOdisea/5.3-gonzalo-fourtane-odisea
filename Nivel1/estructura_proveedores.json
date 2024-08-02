@@ -1,0 +1,16 @@
+{
+  "_id": "ObjectId",
+  "provider_name": "String",
+  "address": {
+    "street": "String",
+    "number": "Number",
+    "floor": ["Number", "Null"],
+    "door": ["String", "Null"],
+    "city": "String",
+    "zip_code": "Number",
+    "country": "String"
+  },
+  "telephone": "String",
+  "fax": ["Number", "Null"],
+  "NIF": "String"
+}
